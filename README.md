@@ -1,7 +1,7 @@
 # node-sequelize
 
 <p>
-<h3>1. 설치</h3><br>
+<h3>1. 설치</h3>
 $ npm i --save sequelize mysql2 //모듈 설치<br>
 $ npm i -g sequelize-cli //콘솔 명령 모듈<br>
 $ sequelize init //sequelize 자동 설치<br>
@@ -12,7 +12,7 @@ $ sequelize init //sequelize 자동 설치<br>
 </p>
 
 <p>
-<h3>3. 용어 설명</h3><br>
+<h3>3. 용어 설명</h3>
 3-1. sequelize란?
 ORM 라이브러리<br>
 *ORM(Object Relational Mapping) -> 자바스크립트 객체와 관계형 데이터베이스를 서로 연결해주는 도구<br>
