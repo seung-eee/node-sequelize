@@ -23,7 +23,7 @@ ___
 $ npm i sequelize mysql2 //모듈 설치
 $ npm i -g sequelize-cli //콘솔 명령 모듈
 $ sequelize init //sequelize 자동 설치
-
+`
 ___
 
 ## 3. 사용법
