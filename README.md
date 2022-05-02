@@ -20,17 +20,17 @@ ___
 
 ## 2. 설치
 ` $ npm i sequelize mysql2 //모듈 설치
-  $ npm i -g sequelize-cli //콘솔 명령 모듈
-  $ sequelize init //sequelize 자동 설치
+` $ npm i -g sequelize-cli //콘솔 명령 모듈
+` $ sequelize init //sequelize 자동 설치
 
 ___
 
 ## 3. 사용법
-3-1. dotenv 사용을 위해 config.json -> config.js로 변경한다.
-3-2. config.js에 DB 정보를 입력한다.
-3-3. models > index.js > 8번줄을 수정한다. -> config.js
-3-4. app.js에 sequelize을 연결해준다. -> 13번줄
-3-5. models에 테이블 파일을 만든다.
- *id는 자동으로 생성됨
- *테이블명은 복수형으로 생성되므로 옵션에 tableName을 명시해줘야함
+3-1. dotenv 사용을 위해 config.json -> config.js로 변경한다. <br>
+3-2. config.js에 DB 정보를 입력한다. <br>
+3-3. models > index.js > 8번줄을 수정한다. -> config.js <br>
+3-4. app.js에 sequelize을 연결해준다. -> 13번줄 <br>
+3-5. models에 테이블 파일을 만든다. <br> 
+ *id는 자동으로 생성됨 <br>
+ *테이블명은 복수형으로 생성되므로 옵션에 tableName을 명시해줘야함 <br>
 
