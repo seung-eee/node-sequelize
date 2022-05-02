@@ -2,9 +2,9 @@
 
 ## 목차
 
-1. [용어 설명](#1.-용어-설명)
-2. [설치](#2.-설치)
-3. [사용법](#3.-사용법)
+1. [용어 설명](#1-용어-설명)
+2. [설치](#2-설치)
+3. [사용법](#3-사용법)
 
 ___
 
@@ -27,10 +27,10 @@ $ sequelize init //sequelize 자동 설치
 ___
 
 ## 3. 사용법
-* dotenv 사용을 위해 config.json -> config.js로 변경한다.
+* config.json -> config.js로 변경한다.
 * config.js에 DB 정보를 입력한다.
 * models > index.js > 8번줄을 수정한다. -> config.js
-* app.js에 sequelize을 연결해준다. -> 13번줄
+* app.js에 sequelize을 연결해준다. -> 13번줄 참고
 * models에 테이블 파일을 만든다.
   *id는 자동으로 생성됨 <br>
   *테이블명은 복수형으로 생성되므로 옵션에 tableName을 명시해줘야함 <br>
